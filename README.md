@@ -18,7 +18,7 @@ All code was written in Python. The main libraries used include TensorFlow, Open
 <br>
 <br>
 ## Code Details
-*__'transfer-learning-experiment.ipynb’:__ 
+__1. transfer-learning-experiment.ipynb:__ 
 This Python code uses TensorFlow to train three different models, plot their results, and compare them:
   * Transfer learning from MobileNet V.2 with only the output layer retrained.
   * Transfer learning from MobileNet V.2 with the last 30 layers retrained.
@@ -26,7 +26,7 @@ This Python code uses TensorFlow to train three different models, plot their res
 
 For detailed model architecture, visit my website: [Model architecture and performance of different models](https://morgan-park.github.io/projects.html#project0)
 
-*__rover-motion.py:__ Written in Python, this code runs on a Raspberry Pi. Using OpenCV and the face-recognition Python library, it enables the rover to 
+__2. rover-motion.py:__ Written in Python, this code runs on a Raspberry Pi. Using OpenCV and the face-recognition Python library, it enables the rover to 
 recognize user faces, preprocess them for image recognition, and classify them using TensorFlow Lite. I integrated AI voice generated through narakeet.com, 
 played using pygame, for the rover's communication with users. Gpiozero controls the rover's motion, and BlueDot allows adult users to control the rover via 
 an Android tablet.
@@ -35,6 +35,6 @@ This code is designed for experimentation and modification for your specific pur
 allowing you to view the result of facial recognition and interact with the code. The program will continue running; to quit, press 'q.'
 
 
-*__run_program.py:__ 
+__3. run_program.py:__ 
 For a smoother user experience, I created this program to operate the rover without displaying all the detailed and complex code. Users can simply execute 
 this code, and the rover will run until interrupted by pressing Ctrl + C.
